@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.header{
+    background: #6900d1 !important;
+}
+.navbar{
+    padding-top: 20px !important;
+}
+.nav-item{
+    margin: 0 0 20px 40px;
+}
+.nav-link{
+    color: white !important;
+    padding: 0 0 5px 0 !important;
+    font-size: 16px !important;
+    display: unset !important;
+}
+.fa-bars{
+    color: white;
+    font-size: 22px;
+    margin-top: -15px; 
+}
+.navbar-light .navbar-toggler{
+    border: none !important;
+}
+.navbar-brand{
+    color: white !important;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: -15px;
+}
+.active-home{
+    border-bottom: 2px solid #fff;
+}
+.nav-link:hover{
+    border-bottom: 2px solid #fff;
+}
+.banner{
+    color: #fff;
+    overflow: hidden;
+}
+.banner h1{
+    margin: 80px 0 40px;
+    font-weight: 600;
+    font-size:50px;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+    margin:10px 0;
+}
+.banner a{
+    padding: 12px;
+    width: 150px;
+    display: inline-block;
+    background: #6900d1;
+    text-decoration: none !important;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 16px;
+}
+.banner a:hover{
+    color: #fff;
+}
+.express-btn{
+    background: #fff !important;
+    color: black !important;
+    margin-right: 5px;
+}
+
+
+
+/* -------------------SERVICE----------------- */
+
+
+
+.service{
+    margin: 75px 0;
+}
+.title{
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.subtitle{
+    font-size: 16px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.service-box{
+    display: flex;
+    flex-direction: column;
+    padding:30px;
+    border-radius: 10px;
+    background: #f9f9f9;
+}
+.service-box h5{
+    margin: 65px 0 35px 0;
+}
+
+.service-box p{
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 35px;
+}
+
+.service-box img{
+    align-content: center;
+    margin: 10px auto;
+    width: 200px;
+    height: 180px;
+    
+}
+.fa-arrow-right{
+    margin-bottom: 35px;
+    margin-top:20px;
+}
+.service-box.active-service{
+    background: #6900d1;
+    color: white;
+}
+
+.active-service p{
+    color: white;
+}
+
+
+
+/* ----------------- Featured ------  Explore -------------- */
+
+
+.feature,.explore{
+    margin:200px 0;
+}
+.feature img, .explore img{
+    border-radius: 10px;
+    max-height: 500px;
+}
+.feature h2{
+margin-top: 130px;
+font-weight: bold;
+margin-bottom: 30px;
+}
+
+.feature p , .explore p{
+margin-bottom: 20px;
+font-size: 16px; 
+}
+
+.feature a, .explore a{
+    padding: 12px;
+    width: 150px;
+    display: inline-block;
+    background: #6900d1;
+    text-decoration: none !important;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 0 9px 9px 1px rgba(204,204,204,0.5);   
+}
+
+/*  ------------------- Explore -------------- */
+
+.explore h2{
+    margin: 50px 0 30px 0;
+    font-weight: bold;
+}
+.explore a{
+    margin-bottom: 50px;
+}
+
+/* ---------------Slider--------------- */
+
+.review{
+    margin: 200px 0;    
+}
+.review h2{
+    margin: 0 0 80px 0;
+    font-weight: bold;
+    text-align: center;
+}
+.carousel-item img{
+    width: 150px;
+    border-radius: 50%;
+}
+.carousel-item{
+    text-align: center;
+    height: 410px;
+}
+.carousel-caption{
+    box-shadow: 0 0 15px 1px rgba(166,163,223,0.5);
+    margin-bottom: 50px;
+    z-index: -1 !important;
+    border-radius: 10px; 
+}
+.carousel-caption h6{
+    margin-top: 60px;
+    font-weight: bold;
+    color: #000 !important;
+}
+.carousel-caption small{
+    margin-bottom: 40px ;
+    margin-top: 10px ;
+    color: #777 !important;
+    display: block;
+}
+.carousel-caption p{
+    color: #000 !important;
+    font-size: 15px;
+    margin-bottom: 40px;
+
+}
+.carousel-indicators li{
+    background-color: #6900d1 !important;
+}
+
+
+
+/* ----------------- Footer ---------------- */
+
+.footer{
+    margin: 200px 0 0 0;
+    padding-top: 5px;
+    color: #fff !important;
+    background: #6900d1;
+    text-align: center;
+}
+.footer h2{
+    margin: 70px 0; 
+    font-weight: 600;
+    font-size: 30px;
+}
+.footer input{
+    width: 60%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border:0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    margin-bottom: 30px;
+}
+::placeholder{
+    color: #fff !important;
+    font-size: 13px;
+}
+.footer button{
+    width: 180px;
+    display: block;
+    margin:auto;
+    padding: 12px 8px;
+    color: #fff !important;
+    background: transparent !important;  
+    border-radius: 10px;
+    border: 2px solid #fff !important;
+    font-size: 18px;  
+}
+.footer small{
+    padding: 60px 0 30px;
+    display: block;
+    color: #fff !important;
+    font-size: 13px;
+}
+
+/* Responisve Sizes */
+
+@media only screen and (max-width: 640px){
+
+    /* Review Section */
+    
+    .carousel-item img{
+        width: 120px;
+        border-radius: 50%;
+    }
+}
